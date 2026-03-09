@@ -45,6 +45,7 @@ The application and database run inside Docker containers and are orchestrated w
 ## Database
 The application uses PostgreSQL as the primary database.
 Database schema is automatically created and versioned via Liquibase migrations at application startup.
+
 Main entity:
 ### Wallet
 Fields:
